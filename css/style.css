@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #b82828;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 150px;
+    padding-left: 0px;
+}
+
+.logo img {
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px 20px ;
+    padding: 10px 20px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+} 
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* section */
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.search-bar input{
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    border-radius: 40px;
+    padding: 0px 8px;
+    font-size: 15px;
+    font-family:  'Poppins';
+    font-weight: bold;
+    border-color: rgb(255, 255, 255);
+    border-style:double;
+    margin-right: 20%;
+}
+
+.h1{
+    .poppins-black-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+}
+
+#wrapper{
+    width: 70%;
+}
+
+.container{
+    position: relative;
+    width: 33.3%;
+}
+
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #3d0a0aec;
+    width: 100%;
+    height: 0;
+    transition-duration: 2s;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+.box{
+    display: flex;
+    margin: 20px;
+    background-color: rgb(212, 196, 191);
+}
+
+.box1, .box2, .box3{
+    border: 2px;
+    box-shadow: 80px 25px 38px rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+.box1:hover, .box2:hover, .box3:hover{
+    box-shadow: 10px 10px 0px;
+    margin-left: 50px;
+    text-shadow: 10px 5px 5px rgb(99, 33, 33);
+    background-image: url("img/zarrarr.jpeg");
+    
+}
+
