@@ -81,7 +81,7 @@ video {
 }
 
 #wrapper{
-    width: 70%;
+    width: 0%;
 }
 
 .container{
@@ -142,3 +142,35 @@ video {
     
 }
 
+/* footer */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+    background-color: #b82828;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+.footer{
+    background-color:aqua;
+    padding: 70px 0;
+}
+/* 
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color:#ffffff
+} */
